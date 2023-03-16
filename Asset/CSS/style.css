@@ -12,9 +12,22 @@ body {
     background-color: #FFD166;
 }
 
-.logo {
+.navbar {
     background-color: #073B4C;
+    z-index: 5;
+}
+
+.yellow {
     color: #FFD166;
+}
+
+.back-blue {
+    background-color: #073B4C;
+}
+
+.logo {
+    background-color: #FFD166;
+    color: #073B4C;
 }
 
 .myImg {
@@ -128,7 +141,7 @@ body {
 
     .borderLeft::after {
         content: "";
-        border-right: 2px solid black;
+        border-right: 2px solid #FFD166;
         margin-left: 15%;
     }
 }
@@ -143,10 +156,14 @@ body {
         height: 300px;
         width: 300px;
     }
+
+    .blue {
+        color: #073B4C !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
-/* 
+    /* 
     .myImg img {
         height: 300px;
         width: 300px;
