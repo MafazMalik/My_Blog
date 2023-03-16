@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Merriweather:wght@700&family=Red+Hat+Display:wght@300;400;500&family=Rubik&family=Work+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #FFD166;
+}
+
+.logo {
+    background-color: #073B4C;
+    color: #FFD166;
+}
+
+.myImg {
+    height: 450px;
+    width: 450px;
+}
+
+.about {
+    text-align: justify;
+}
+
+
+.entry {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+
+.entrBg {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    padding-top: 35px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.entrBg1 {
+    transition: 0.5s;
+    background-color: #EF476F;
+}
+
+.entrBg2 {
+    transition: 0.5s;
+    background-color: #06D6A0;
+}
+
+.entrBg3 {
+    transition: 0.5s;
+    background-color: #118AB2;
+}
+
+.entry:hover {
+    color: black;
+}
+
+.entrBg1:hover {
+    transition: 0.5s;
+    color: #FFD166;
+    background-color: #073B4C;
+}
+
+.entrBg2:hover {
+    transition: 0.5s;
+    color: #FFD166;
+    background-color: #073B4C;
+}
+
+.entrBg3:hover {
+    transition: 0.5s;
+    color: #FFD166;
+    background-color: #073B4C;
+}
+
+.social,
+.social:hover {
+    color: #073B4C;
+    text-decoration: none;
+}
+
+.socialLog {
+    font-size: x-large;
+}
+
+.linkedIn,
+.linkedIn:hover {
+    color: #0A66C2;
+}
+
+.twitter,
+.twitter:hover {
+    color: #1D9BF0;
+}
+
+.instagram,
+.instagram:hover {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.facebook,
+.facebook:hover {
+    color: #3982E4;
+}
+
+@media only screen and (min-width: 1199px) {
+    .myImg {
+        position: absolute;
+        right: 80px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-nav {
+        right: 5%;
+    }
+
+    .borderLeft::after {
+        content: "";
+        border-right: 2px solid black;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .myImg {
+        height: 300px;
+        width: 300px;
+    }
+
+    .myImg img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+/* 
+    .myImg img {
+        height: 300px;
+        width: 300px;
+    } */
+}
