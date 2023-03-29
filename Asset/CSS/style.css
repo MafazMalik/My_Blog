@@ -156,10 +156,6 @@ body {
         height: 300px;
         width: 300px;
     }
-
-    .blue {
-        color: #073B4C !important;
-    }
 }
 
 @media only screen and (max-width: 992px) {
