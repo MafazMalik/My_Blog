@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Merriweather:wght@700&family=Red+Hat+Display:wght@300;400;500&family=Rubik&family=Work+Sans:wght@500&display=swap');
 
+:root {
+    /* --black: #3A4342; */
+    --black: #151517;
+    --grey: #E5E6E8;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,25 +15,26 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #FFD166;
+    background-color: var(--black);
+    color: var(--grey);
 }
 
 .navbar {
-    background-color: #073B4C;
+    background-color: var(--grey);
     z-index: 5;
 }
 
 .yellow {
-    color: #FFD166;
+    color: var(--black);
 }
 
 .back-blue {
-    background-color: #073B4C;
+    background-color: var(--grey);
 }
 
 .logo {
-    background-color: #FFD166;
-    color: #073B4C;
+    background-color: var(--black);
+    color: var(--grey);
 }
 
 .myImg {
@@ -40,62 +47,38 @@ body {
 }
 
 
-.entry {
+.entryBtn {
     text-decoration: none;
     font-size: larger;
     font-weight: bolder;
-    color: black;
+    color: var(--black);
 }
 
-.entrBg {
+.entryBg {
     border-radius: 100%;
     height: 100px;
     width: 100px;
     padding-top: 35px;
     text-align: center;
     border: 1px solid black;
-}
-
-.entrBg1 {
     transition: 0.5s;
-    background-color: #EF476F;
+    background-color: var(--grey);
 }
 
-.entrBg2 {
+.entryBtn:hover {
+    color: var(--black)
+}
+
+.entryBg:hover {
     transition: 0.5s;
-    background-color: #06D6A0;
-}
-
-.entrBg3 {
-    transition: 0.5s;
-    background-color: #118AB2;
-}
-
-.entry:hover {
-    color: black;
-}
-
-.entrBg1:hover {
-    transition: 0.5s;
-    color: #FFD166;
-    background-color: #073B4C;
-}
-
-.entrBg2:hover {
-    transition: 0.5s;
-    color: #FFD166;
-    background-color: #073B4C;
-}
-
-.entrBg3:hover {
-    transition: 0.5s;
-    color: #FFD166;
-    background-color: #073B4C;
+    color: var(--grey);
+    background-color: var(--black);
+    border: 1px solid var(--grey);
 }
 
 .social,
 .social:hover {
-    color: #073B4C;
+    color: var(--grey);
     text-decoration: none;
 }
 
@@ -127,6 +110,15 @@ body {
     color: #3982E4;
 }
 
+.github,
+.github:hover {
+    color: white;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
 @media only screen and (min-width: 1199px) {
     .myImg {
         position: absolute;
@@ -141,7 +133,7 @@ body {
 
     .borderLeft::after {
         content: "";
-        border-right: 2px solid #FFD166;
+        border-right: 2px solid var(--black);
         margin-left: 15%;
     }
 }
@@ -156,12 +148,4 @@ body {
         height: 300px;
         width: 300px;
     }
-}
-
-@media only screen and (max-width: 992px) {
-    /* 
-    .myImg img {
-        height: 300px;
-        width: 300px;
-    } */
 }
