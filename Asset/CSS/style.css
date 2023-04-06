@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Merriweather:wght@700&family=Red+Hat+Display:wght@300;400;500&family=Rubik&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
 
 :root {
     /* --black: #3A4342; */
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--black);
     color: var(--grey);
 }
@@ -24,12 +24,8 @@ body {
     z-index: 5;
 }
 
-.yellow {
+.black {
     color: var(--black);
-}
-
-.back-blue {
-    background-color: var(--grey);
 }
 
 .logo {
@@ -47,42 +43,42 @@ body {
 }
 
 
-.entryBtn {
+.viewBtn {
     text-decoration: none;
-    font-size: larger;
+    font-size: x-large;
     font-weight: bolder;
     color: var(--black);
 }
 
-.entryBg {
+.viewBtnBg {
     border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    padding-top: 35px;
+    height: 150px;
+    width: 150px;
+    padding-top: 55PX;
     text-align: center;
     border: 1px solid black;
     transition: 0.5s;
     background-color: var(--grey);
 }
 
-.entryBtn:hover {
+.viewBtn:hover {
     color: var(--black)
 }
 
-.entryBg:hover {
+.viewBtnBg:hover {
     transition: 0.5s;
     color: var(--grey);
     background-color: var(--black);
     border: 1px solid var(--grey);
 }
 
-.social,
-.social:hover {
+.myContact,
+.myContact:hover {
     color: var(--grey);
     text-decoration: none;
 }
 
-.socialLog {
+.iconFontSize {
     font-size: x-large;
 }
 
@@ -115,7 +111,7 @@ body {
     color: white;
 }
 
-.text-justify{
+.text-justify {
     text-align: justify;
 }
 
