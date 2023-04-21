@@ -19,6 +19,16 @@ body {
     color: var(--grey);
 }
 
+.scroll {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border: 3px dotted var(--grey);
+    height: 50px;
+    width: 50px;
+    padding-top: 12px;
+}
+
 .navbar {
     background-color: var(--grey);
     z-index: 5;
@@ -26,6 +36,14 @@ body {
 
 .black {
     color: var(--black);
+}
+
+.grey{
+    color: var(--grey);
+}
+
+.bg-grey {
+    background-color: var(--grey);
 }
 
 .logo {
